@@ -1,17 +1,7 @@
 [
     {
-        "title": "Test Title",
-        "text": "Test text",
-        "id": "15151"
-    },
-    {
-        "title": "My First",
-        "text": "Checking whether all is working",
-        "id": "15151"
-    },
-    {
-        "title": "With the ID",
-        "text": "I have it with the ID",
-        "id": "19c9"
+        "title": "New Note",
+        "text": "My first new note",
+        "id": "4ed7"
     }
 ]
