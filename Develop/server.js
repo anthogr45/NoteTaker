@@ -1,7 +1,7 @@
 const express = require('express');
 const path = require('path');
 const fs = require('fs');
-
+const noteID = require('./helpers/noteid')
 const PORT = 3001;
 
 const app = express();
@@ -52,7 +52,9 @@ app.post('/api/notes', (req, res) => {
   if (title && text) {
     const newNotes = {
       title,
-      text
+      text,
+      id:noteID(),
+      
     };
 
     fs.readFile ('./db/db.json', 'utf8', (err, data) => {
