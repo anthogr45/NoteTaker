@@ -30,7 +30,7 @@ Note Maker allows the user to maintain a notes repository which are properly org
 
 Screen layout is available in the repository path: 
 
-![image info](./assets/Screenshot%202023-10-26%20203747.png)
+
 ![image info](./assets/Screenshot%202023-10-26%20204412.png)
 
 ## Credits
