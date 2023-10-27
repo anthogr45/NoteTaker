@@ -1,2 +1,0 @@
-# NoteTaker
-Note Taker

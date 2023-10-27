@@ -1,7 +1,6 @@
 const express = require('express');
 const path = require('path');
 const fs = require('fs');
-const noteID = require('./helpers/noteid') //Helper method for generating the Note ID
 const PORT = 3001;
 const api = require('./routes');
 
@@ -12,9 +11,8 @@ app.use(express.urlencoded({extended: true}));
 
 app.use(express.static('public'));
 
-//Routes for the /API
+//Routes for the /API (GET and POST)
 app.use('/api', api);
-
 
 
 //GET route for the notes.html 
@@ -22,12 +20,10 @@ app.get('/notes', (req, res) =>
   res.sendFile(path.join(__dirname, './public/notes.html'))
 );
 
-//Wildcard route for the public folder 
+//Wildcard route for the index.html 
 app.get('/', (req, res) =>
   res.sendFile(path.join(__dirname, './public/index.html'))
 );
-
-
 
 
 //Delete method to delete the records from the DB with the related ID index
@@ -56,6 +52,7 @@ app.delete('/api/notes/:id', (req, res) => {
         return res.status(500).send('Error in server');
       }
       res.send('Note successfully deleted');
+      console.info('Notes Successfully Deleted');
     });
   });
 
