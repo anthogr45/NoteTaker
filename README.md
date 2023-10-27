@@ -41,5 +41,5 @@ Screen layout is available in the repository path:
   
 ## Features Links
 
-Apllication Heroku URL: Readme will be submitted with the link once the Heroku account error is fixed (Class Tutor was informed)
-Github Repository url: https://github.com/anthogr45/NoteTaker
+Apllication Heroku URL:https://git.heroku.com/floating-scrubland-52573.git
+Github Repository url: https://github.com/anthogr45/NoteTaker.git
