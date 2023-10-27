@@ -41,5 +41,5 @@ Screen layout is available in the repository path:
   
 ## Features Links
 
-APllication Horoku URL: https://drive.google.com/file/d/131-R8JivoQVOP72eFgjscOnpvXSyz72I/view
+Apllication Heroku URL: Readme will be submitted with the link once the Heroku account error is fixed (Class Tutor was informed)
 Github Repository url: https://github.com/anthogr45/NoteTaker
