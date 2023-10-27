@@ -41,5 +41,5 @@ Screen layout is available in the repository path:
   
 ## Features Links
 
-Url for the demo vedio: https://drive.google.com/file/d/131-R8JivoQVOP72eFgjscOnpvXSyz72I/view
+APllication Horoku URL: https://drive.google.com/file/d/131-R8JivoQVOP72eFgjscOnpvXSyz72I/view
 Github Repository url: https://github.com/anthogr45/NoteTaker
