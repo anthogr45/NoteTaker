@@ -51,7 +51,7 @@ app.delete('/api/notes/:id', (req, res) => {
        console.error(err);
         return res.status(500).send('Error in server');
       }
-      res.send('Note successfully deleted');
+      res.send('Note successfully Deleted');
       console.info('Notes Successfully Deleted');
     });
   });
